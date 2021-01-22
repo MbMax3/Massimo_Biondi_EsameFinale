@@ -2,6 +2,7 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Testo"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#FFFFFF"
@@ -81,16 +82,15 @@
                     android:rotationY="0"
                     android:text="Start Quiz" />
 
-                <EditText
-                    android:id="@+id/testobase"
+                <TextView
+                    android:id="@+id/textView"
                     android:layout_width="match_parent"
-                    android:layout_height="15dp"
+                    android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:ems="10"
-                    android:fontFamily="sans-serif"
-                    android:inputType="textPersonName"
-                    android:text="/\\-By MbMax-/\\"
-                    android:textAlignment="center" />
+                    android:text="TextView"
+                    android:textAlignment="center"
+                    tools:text="/\\-By MbMax-/\\" />
+
             </LinearLayout>
 
         </LinearLayout>

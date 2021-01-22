@@ -51,9 +51,9 @@ public class QuizDbHelper extends SQLiteOpenHelper {
         addQuestion(q1);
         Question q2 = new Question("Le serie tv più \"piratate\" nel 2020", "Game of Thrones", "Mandalorian", "The Boys", 2, Question.QUIZ_1);
         addQuestion(q2);
-        Question q3 = new Question("Di che colere è il cavallo di Gandalf?", "Nero", "Marrone", "Bianco", 3, Question.QUIZ_1);
+        Question q3 = new Question("Di che colore è il cavallo di Gandalf?", "Nero", "Marrone", "Bianco", 3, Question.QUIZ_1);
         addQuestion(q3);
-        Question q4 = new Question("Quando uscirà hogwarts legacy", "2021", "2022", "Speriamo non tanto come Ciberpunk 2077", 2, Question.QUIZ_1);
+        Question q4 = new Question("Quando uscirà hogwarts legacy", "2021", "2022", "Speriamo non tanto come Ciberpunk 2077", 3, Question.QUIZ_1);
         addQuestion(q4);
         Question q5 = new Question("Qual'è il gioco più discusso del 2020 su twitwer?", "The last of us", "Animal Crossing: New Horizon", "Ciberpunk 2077", 2, Question.QUIZ_1);
         addQuestion(q5);
