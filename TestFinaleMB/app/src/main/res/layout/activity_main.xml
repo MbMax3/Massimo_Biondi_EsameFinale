@@ -65,7 +65,7 @@
 
                 <ImageView
                     android:id="@+id/immagine"
-                    android:layout_width="match_parent"
+                    android:layout_width="353dp"
                     android:layout_height="169dp"
                     android:layout_weight="1"
                     tools:srcCompat="@drawable/quiz" />
